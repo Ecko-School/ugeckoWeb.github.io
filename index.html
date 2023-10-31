@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-image: url(./pictures/Matrix.gif);
+        }
+    </style>
+</head>
+<body style="text-align:center;">
+<div class="container">
+    <div class="rectangle">
+        <div class="backgroundMusic">
+            <audio controls style="justify-items: left;" id="musicElement" autoplay>
+                <source src="./audio/backgroundMusic.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+        <div class="introText">
+            Hi, I'm Joey (UGEcko)
+            <p>I like computers.
+            <p>
+            <img src="./pictures/Portrait2.jpg" height="150px" width="150px">
+        </div>
+        <button onclick="initCursor(false);" style="background-color: black; color:aliceblue; display: flexbox;">Enable Cursor Effect</button>
+        <button onclick ="initCursor(true);" style="background-color: black; color:aliceblue; display: flexbox;">Disable Cursor Effect</button>
+        <hr> 
+        <h1 style="justify-content:center; display: flex;">My Hobby</h1>
+        <div class="hobbyText">My top hobby would be computers or gaming. For most of the day im in my room gaming and socializing with friends, or developing something.
+            Ive been interested in computers, or really anything that contains a circuit board ever since I was young, I found it very fascinating
+            and amazing that something like that was possible or thought of. To this day I still have a strong interest in computers and electrical devices
+            and I believe I will create my future very heavily around it.
+            <p> 
+            As of gaming, I really enjoy FPS or First Person Shooter type games. Ive always enjoyed shooter games like CallOfDuty (Especially zombies),
+            aswell as games that take it to another level, such as The Finals or Splitgate. I do have a heavy interest on FPS games, however I do 
+            enjoy other game genres such as; Horror like Phasmophobia, VR like Beatsaber, and Sandboxes like Minecraft. 
+            <p>
+            What made this possible is my computer, but before all of this I only started off with a gameboy playing Sims, then I got my first xbox.
+            After that I have increasingly got more and more interested in gaming. I kept upgrading my gaming setup, and then I eventually wanted 
+            to build myself a computer in 2020. Over the 3 years ive had it has given me a path to technology I never have thought I would have taken.
+            Ive learned to build discord bots, create windows applications, make games in game engines like Unity and UnrealEngine, learn programming languages, and more. </div>
+        </div>
+</div>
+</body>
+<script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+<script> // Cursor Handler, dont allow initiation/destruction if cursorAmt is 0 or 1.
+    let cursorEffect;
+    let cursorAmt = 0;
+function init() {
+    cursorEffect = new cursoreffects.clockCursor({
+            dateColor: "white",
+            minutesColor: "white",
+            faceColor: "white",
+            hoursColor: "white",
+            secondsColor: "white"
+        });
+}
+    init()
+    cursorAmt = 1;
+    function initCursor(destroy) {
+        if(destroy == true && cursorAmt == 1) {
+            cursorEffect.destroy();
+            cursorAmt = 0;
+        }
+        if(destroy == false && cursorAmt == 0) {
+            init()
+            cursorAmt = 1;
+        }
+}
+</script>
+<script>// Handle/process audio
+var bgAudio = document.getElementById("musicElement")
+bgAudio.volume = 0.0075 // Set volume low because hirbawi songs are loud and webpage volume is exponentially set in a wack way
+</script>
+<footer style="text-align: center; color:aliceblue;">Web Design Project 1 | Goofball City LLC 2023</footer>
+</html>

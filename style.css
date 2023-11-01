@@ -65,15 +65,6 @@
         display:grid;
         color:rgb(218, 218, 218)
 }
-.youtubeContainer {
-    font-family: sans-serif;
-    color: #3c3c3c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    flex-direction: column;
-}
 .youtubeText {
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -131,6 +122,21 @@
       #e5161c 0%,
       #202020 50%,
       #e5161c 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+.fixingGoodText {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(
+      to right,
+      #006220 0%,
+      #7c7c7c 50%,
+      #006220 100%
     );
     -webkit-background-clip: text;
     background-clip: text;

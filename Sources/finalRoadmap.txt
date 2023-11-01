@@ -1,0 +1,30 @@
+For the images and image with a link:
+Seperate rectangle area (in the middle between the hobby area and the favorite websites)
+Have a paragraph about my music interests, maybe games interest aswell (note: its already covered in the hobby area so switch it up to relate with the images more)
+Have images of games I play, aswell as some music covers from ken carson or something.
+And ofc something that leads the visitor to the images, like: "Here are some images of my favorite games and albums by artists I love"
+
+
+Requirements still to be met:
+Minimum of 6 images (2 of those must be positioned side by side)
+Image thats linked to a websites
+Should include one list format (The programming languages I know how to write hello world in probably)
+
+
+Requirements that are met:
+Digital Picture
+Detailed text about me and the topic (Will be modified)
+Sentence with a different color for each word
+Favorite links portion
+Website has a background 
+Background Music
+
+
+Additions that I added:
+Clock cursor effect
+Many CSS animations (Rectangles, text)
+
+
+Other ideas to possibly implement if completed before due date:
+Add custom bar that is stuck to the bottom of the screen for music controls (Play, Pause, Volume slider, Track Progress)
+

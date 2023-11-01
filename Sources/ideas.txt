@@ -1,0 +1,11 @@
+For the background, have a matrix background with a dark grey rectangle that is smoothed on all 4 sides to create a good canvas (Done)
+
+For the digital picture, have me in my chair with a beatsaber map I made with the code on the other screen (later changed to me on the podium) (Done)
+
+For the favorite links, have Youtube, W3Schools, Stack Overflow (Done)
+
+Have information about my involvement in beatsaber, and my experiences with video games and competitivity inside of them (Modified) (Done)
+
+Rick roll with the image linked to the website of course obv yupyupyup (STILL PLANNED!!)
+
+Have a chart or something that shows every programming language that im able to create a simple hello world statement with (Still planned!)

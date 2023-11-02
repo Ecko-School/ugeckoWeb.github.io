@@ -17,6 +17,9 @@
       background-position: 100% 50%;
     }
   }
+body {
+  background-image: url(./pictures/Matrix.gif);
+}
 .textRainbow {
     animation-name: textRainbowAnim;
     animation-duration: 3s;

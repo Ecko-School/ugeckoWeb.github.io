@@ -65,6 +65,13 @@
         display:grid;
         color:rgb(218, 218, 218)
 }
+.imageFormat {
+  height: 240px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .youtubeText {
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -104,7 +111,7 @@
     background: linear-gradient(
       to right,
       #128a56 0%,
-      #e9e9e9 50%,
+      #1d2a35 50%,
       #128a56 100%
     );
     -webkit-background-clip: text;
@@ -130,12 +137,12 @@
     animation: textShine 5s ease-in-out infinite alternate;
 }
 .fixingGoodText {
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: linear-gradient(
       to right,
       #006220 0%,
-      #7c7c7c 50%,
+      #ffffff 50%,
       #006220 100%
     );
     -webkit-background-clip: text;

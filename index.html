@@ -9,8 +9,8 @@
     </style>
 </head>
 <body style="text-align:center;">
-<div class="container">
-    <div class="rectangle">
+<div class="container" style="height:1050px">
+    <div class="rectangle" style="height:900px">
         <div class="backgroundMusic">
             <audio controls style="justify-items: left;" id="musicElement" autoplay>
                 <source src="./audio/elevator.mp3" type="audio/mpeg">
@@ -25,9 +25,9 @@
         </div>
         <button onclick="initCursor(false);" style="background-color: black; color:aliceblue; display: flexbox;">Enable Cursor Effect</button>
         <button onclick ="initCursor(true);" style="background-color: black; color:aliceblue; display: flexbox;">Disable Cursor Effect</button>
-        <hr> 
+        <hr>
         <div class ="headingTextFormat"><h1 style="justify-content:center; display: flex;">My Hobby</h1></div>
-        <div class="textFormat"><div class="textRainbow">My top hobby would be computers or gaming.</div> For most of the day im in my room gaming and socializing with friends, or developing something.
+        <div class="textFormat"><div class="textRainbow">My top hobby would be computers, gaming, and music.</div> For most of the day im in my room gaming and socializing with friends, or developing something.
             Ive been interested in computers, or really anything that contains a circuit board ever since I was young, I found it very fascinating
             and amazing that something like that was possible or thought of. To this day I still have a strong interest in computers and electrical devices
             and I believe I will create my future very heavily around it.
@@ -39,16 +39,62 @@
             What made this possible is my computer, but before all of this I only started off with a gameboy playing Sims, then I got my first xbox.
             After that I have increasingly got more and more interested in gaming. I kept upgrading my gaming setup, and then I eventually wanted 
             to build myself a computer in 2020. Over the 3 years ive had it has given me a path to technology I never have thought I would have taken.
-            Ive learned to build discord bots, create windows applications, make games in game engines like Unity and UnrealEngine, learn programming languages, and more. </div>
+            Ive learned to build discord bots, create windows applications, make games in game engines like Unity and UnrealEngine, learn programming languages, and more. 
+            <br><br>The programming languages I know how to create a simple hello world statement in:
+            <ul>
+                <li>• Javascript/Typescript
+                <li>• C, C++, C#
+                <li>• Python
+                <li>
+            </ul>
         </div>
+            
+        </div>
+        
 </div>
 </body>
 <body>
-    <div class="container" style="height: 65%;">
-    <div class="rectangle" style="height: 600px;">
+    <div class="container" style="height: 725px;">
+        <div class="rectangle" style="height: 800px;">
+            <div class="headingTextFormat">
+                <h1>My Favorite games and albums</h1>
+            </div>
+            <div class="textFormat">
+                My favorite games would be a mix of Intense, competitive, and horrific titles.
+                <p>My current top games are Beatsaber, Counter-Strike 2, Call of Duty-Black Ops 3 (Zombies), Outlast 2, The Finals, and Rocket League.
+            </div>
+            <hr>
+            <p>
+            <div class="imageFormat">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./pictures/games/BeatsaberIMG.png"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./pictures/games/CounterStrikeIMG.png"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./pictures/games/BlackOps3IMG.jpg"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./pictures/games/Outlast2IMG.png"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./pictures/games/TheFinalsIMG.png"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./pictures/games/RocketLeagueIMG.png"></a>
+            </div>
+            <p>
+            <hr>
+            <div class="textFormat">
+                As for music, my favorite genres are Trap, Hip-Hop, and EDM.
+                <p>The current albums I like are A Great Chaos by Ken Carson, Blood Rushing Like Current Through A Powerline by Acloudyskye, Safe Travels by untilJapan, and Scriptures by DevStacks
+            </div>
+            <div class="imageFormat">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./pictures/albums/AGC.png"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./pictures/albums/BRLCTAPL.png"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./pictures/albums/safeTravels.png"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./pictures/albums/scriptures.png"></a>
+            </div>
+        </div>
+    </div>
+</body>
+<body>
+    <div class="container" style="height: 700px;">
+    <div class="rectangle" style="height: 575px;">
         <div class="headingTextFormat">
             <h1>My Favorite Websites</h1>
         </div>
+        <hr>
         <div class="textFormat">
         <div class="youtubeText"><a href="https://www.youtube.com/">Youtube</a></div>
         I like youtube because im interested in videos about current events, computers, gaming, etc...
@@ -57,11 +103,10 @@
         I love Stack Overflow because I go straight there to ask or find solutions for an issue in my code.
         <p>
         <div class="w3Text"><a href="https://www.w3schools.com/">W3Schools</a></div>
-        I love W3Schools because it was the building block of my programming knowledge
+        I love W3Schools because it was the building block of my programming knowledge,
         <p> aswell as reviewing them.
         <div class="netflixText"><a href="https://www.netflix.com/browse/">Netflix</a></div>
-        I like netflix because it has a great selection of movies and shows I enjoy watching 
-        <p>
+        I like netflix because it has a great selection of movies and shows I enjoy watching,
             <div class="fixingGoodText">Like Breaking Bad!!!</div>
         </div>
     </div>
@@ -97,6 +142,5 @@ function init() {
 var bgAudio = document.getElementById("musicElement")
 bgAudio.volume = 0.005 // Set volume low because hirbawi songs are loud and webpage volume is exponentially set in a wack way
 </script>
-<p>
-<footer style="text-align: center; color:aliceblue;">Web Design Project 1 | Goofball City LLC 2023</footer>
+<footer style="text-align: center; color:aliceblue;">Web Design Project 1 | Goofball City 2023</footer>
 </html>

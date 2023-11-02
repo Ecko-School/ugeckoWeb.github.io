@@ -6,9 +6,7 @@ And ofc something that leads the visitor to the images, like: "Here are some ima
 
 
 Requirements still to be met:
-Minimum of 6 images (2 of those must be positioned side by side)
-Image thats linked to a websites
-Should include one list format (The programming languages I know how to write hello world in probably)
+All done!
 
 
 Requirements that are met:
@@ -18,13 +16,16 @@ Sentence with a different color for each word
 Favorite links portion
 Website has a background 
 Background Music
+Minimum of 6 images (2 of those must be positioned side by side)
+Image thats linked to a websites
+Should include one list format (The programming languages I know how to write hello world in probably)
 
 
 Additions that I added:
 Clock cursor effect
 Many CSS animations (Rectangles, text)
+Goofy footer (so official)
 
 
 Other ideas to possibly implement if completed before due date:
 Add custom bar that is stuck to the bottom of the screen for music controls (Play, Pause, Volume slider, Track Progress)
-
